@@ -46,8 +46,8 @@ jobs:
       with:
         token_format: ${{ secrets.access_token }}
         #workload_identity_provider: 'projects/app-cloud-demos/global/workloadIdentityPools/my-pool/providers/my-provider'
-        workload_identity_provider: 'principalSet://iam.googleapis.com/projects/791056534873/locations/global/workloadIdentityPools/workload-github-actions-chetan/*'
-        #workload_identity_provider:  'principalSet://iam.googleapis.com/projects/791056534873/locations/global/workloadIdentityPools/workload-github-actions-chetan/*'
+        #workload_identity_provider: 'principalSet://iam.googleapis.com/projects/791056534873/locations/global/workloadIdentityPools/workload-github-actions-chetan/*'
+        orkload_identity_provider:  'projects/791056534873/locations/global/workloadIdentityPools/workload-github-actions-chetan/*'
         #service_account: '791056534873-compute@developer.gserviceaccount.com'
         service_Account: 'chetan_hole@app-cloud-demos.iam.gserviceaccount.com'
 
