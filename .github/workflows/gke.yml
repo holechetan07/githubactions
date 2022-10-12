@@ -44,7 +44,7 @@ jobs:
       name: 'Authenticate to Google Cloud'
       uses: 'google-github-actions/auth@v0'
       with:
-        token_format: ${{ secrets.access_token }}
+        token_format: ${{ secrets.ACCESS_TOKEN }}
         #workload_identity_provider: 'projects/app-cloud-demos/global/workloadIdentityPools/my-pool/providers/my-provider'
         #workload_identity_provider: 'principalSet://iam.googleapis.com/projects/791056534873/locations/global/workloadIdentityPools/workload-github-actions-chetan/*'
         workload_identity_provider:  'projects/791056534873/locations/global/workloadIdentityPools/workload-github-actions-chetan/*'
